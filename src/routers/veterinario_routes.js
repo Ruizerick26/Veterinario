@@ -1,4 +1,5 @@
 import {Router} from 'express'
+//import verificarAutenticacion from '../middlewares/autenticacion.js'
 import {
     login,
     perfil,
