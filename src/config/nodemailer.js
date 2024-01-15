@@ -36,7 +36,7 @@ const sendMailToUser = (userMail, token) => {
 
 // send mail with defined transport object
 const sendMailToRecoveryPassword = async(userMail,token)=>{
-    let info = await transport.sendMail({
+    let info = await transporter.sendMail({
     from: 'admin@vet.com',
     to: userMail,
     subject: "Correo para reestablecer tu contraseña",

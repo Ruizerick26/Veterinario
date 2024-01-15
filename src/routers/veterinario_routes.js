@@ -1,5 +1,5 @@
 import {Router} from 'express'
-//import verificarAutenticacion from '../middlewares/autenticacion.js'
+import verificarAutenticacion from '../middlewares/autenticacion.js'
 import {
     login,
     perfil,
@@ -13,21 +13,26 @@ import {
     comprobarTokenPasword,
     nuevoPassword,
 } from "../controllers/veterinario_controller.js";
+import { validacionVeterinario } from '../middlewares/validacionVeterinario.js';
+
 
 const router = Router()
 
+//publicas 
 router.post("/login", login);
-router.post("/registro", registro);
+router.post("/registro",validacionVeterinario, registro);
 router.get("/confirmar/:token", confirmEmail);
 router.get("/veterinarios", listarVeterinarios);
 router.get("/recuperar-password", recuperarPassword);
 router.get("/recuperar-password/:token", comprobarTokenPasword);
 router.post("/nuevo-password/:token", nuevoPassword);
 
-router.get("/perfil", perfil);
-router.put('/veterinario/actualizarpassword',actualizarPassword)
-router.get("/veterinario/:id", detalleVeterinario);
-router.put("/veterinario/:id", actualizarPerfil);
+
+//privadas
+router.get("/perfil",verificarAutenticacion, perfil);
+router.put('/veterinario/actualizarpassword',verificarAutenticacion,actualizarPassword)
+router.get("/veterinario/:id",verificarAutenticacion ,detalleVeterinario);
+router.put("/veterinario/:id",verificarAutenticacion ,actualizarPerfil);
 
 
 export default router
