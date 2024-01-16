@@ -26,7 +26,7 @@ const perfilPaciente = (req,res)=>{
 }
 //listar paciente
 const listarPacientes = async (req,res)=>{
-    const pacientes = await Paciente.find({estado:true}).where('veterinario').equals(req.veterinarioBDD).select("-salida -createdAt -updatedAt -__v").populate('veterinario','_id nombre apellido')
+    const pacientes = await Paciente.find({estado:true}).where('veterinario').equals(req.veterinarioBDD).select("-salida -createdAt -updatedAt -__v -password").populate('veterinario','_id nombre apellido')
     res.status(200).json(pacientes)
 }
 //detalle del paciente
