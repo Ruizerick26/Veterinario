@@ -1,6 +1,7 @@
 # API RESFULL 
 
 - Inicio de la aplicacion restfull SPRINT 0 Y SPRINT 1
+- Desarrollo del Sprint 2
 
 
 
@@ -32,6 +33,30 @@
 ![imagen](https://github.com/Ruizerick26/Veterinario/assets/117743844/46fdbea6-ed5c-481b-8903-6b6e8c6f3c8a)
 
 ![imagen](https://github.com/Ruizerick26/Veterinario/assets/117743844/4a920fed-5f2d-4187-85cc-42672c9807d1)
+
+## SPRINT 2
+
+-Elaboración del modulo de Paciente
+
+![image](https://github.com/Ruizerick26/Veterinario/assets/117743844/265d3638-c5b4-46e8-b5f9-283f36e77dff)
+
+![image](https://github.com/Ruizerick26/Veterinario/assets/117743844/4fcd9652-e5d8-4a2c-b78c-f47f3ef6e2b0)
+
+![image](https://github.com/Ruizerick26/Veterinario/assets/117743844/2c2de0b1-ff5b-4a53-824b-81d2593e194e)
+
+![image](https://github.com/Ruizerick26/Veterinario/assets/117743844/096bd0ce-8f3e-45a9-970d-2fcd82b4eaf3)
+
+![image](https://github.com/Ruizerick26/Veterinario/assets/117743844/f56fe93b-783e-48fb-9139-c5c20cce55a9)
+
+![image](https://github.com/Ruizerick26/Veterinario/assets/117743844/8c91b5a5-7b75-4bb8-b388-7002c16b9694)
+
+![image](https://github.com/Ruizerick26/Veterinario/assets/117743844/fe211c9e-13f6-49c3-9851-240d9554aa45)
+
+
+
+
+
+
 
 
 
