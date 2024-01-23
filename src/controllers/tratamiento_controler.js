@@ -16,9 +16,9 @@ const registrarTratamiento = async (req,res)=>{
 const actualizarTratamiento = async(req,res)=>{
     const {id} = req.params
     if (Object.values(req.body).includes("")) return res.status(400).json({msg:"Lo sentimos, debes llenar todos los campos"})
-    if( !mongoose.Types.ObjectId.isValid(id) ) return res.status(404).json({msg:`Lo sentimos, no existe el veterinario ${id}`});
-    await Paciente.findByIdAndUpdate(req.params.id,req.body)
-    res.status(200).json({msg:"Actualización exitosa del paciente"})
+    if( !mongoose.Types.ObjectId.isValid(id) ) return res.status(404).json({msg:`Lo sentimos, no existe el tratamiento ${id}`});
+    await Tratamiento.findByIdAndUpdate(req.params.id,req.body)
+    res.status(200).json({msg:"Actualización exitosa del tratamiento"})
 }
 
 const eliminarTratamiento = async(req,res)=>{
