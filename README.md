@@ -2,6 +2,7 @@
 
 - Inicio de la aplicacion restfull SPRINT 0 Y SPRINT 1
 - Desarrollo del Sprint 2
+- Desarrollo del Sprint 3
 
 
 
@@ -51,6 +52,45 @@
 ![image](https://github.com/Ruizerick26/Veterinario/assets/117743844/8c91b5a5-7b75-4bb8-b388-7002c16b9694)
 
 ![image](https://github.com/Ruizerick26/Veterinario/assets/117743844/fe211c9e-13f6-49c3-9851-240d9554aa45)
+
+## SPRINT 3
+- Elaboración del módulo tratamientos (CRUD de tratamientos)
+
+Registrar Tratamiento:
+
+![imagen](https://github.com/Ruizerick26/Veterinario/assets/117743844/bb9e28a7-d483-4332-b0b7-e1807d1e7456)
+
+![imagen](https://github.com/Ruizerick26/Veterinario/assets/117743844/b2f4b57e-b4a7-4176-90f7-639c071a56c1)
+
+Visualizar Tratamiento:
+
+![imagen](https://github.com/Ruizerick26/Veterinario/assets/117743844/797373a7-593b-4a76-ad36-d8fec1fdeb50)
+
+Actualizar Tratamiento:
+
+![imagen](https://github.com/Ruizerick26/Veterinario/assets/117743844/f2f3bbc5-fcc9-4e3a-bb63-9e7a9afd6ea6)
+
+Eliminar Tratamiento:
+
+![imagen](https://github.com/Ruizerick26/Veterinario/assets/117743844/d7afcd1d-a63f-419b-967e-b8245ab361a5)
+
+Modificar Estado del tratamiento:
+
+![imagen](https://github.com/Ruizerick26/Veterinario/assets/117743844/3395496a-8e18-4a11-b404-2c409317f93b)
+
+Visualizar el tratamiento en el paciente correspondiente:
+
+![imagen](https://github.com/Ruizerick26/Veterinario/assets/117743844/29c96d00-c06a-43e3-8cc9-0e036bb989f9)
+
+
+
+![imagen](https://github.com/Ruizerick26/Veterinario/assets/117743844/454f1590-1385-4819-b4cd-5fb0600b6149)
+
+
+
+
+
+
 
 
 
