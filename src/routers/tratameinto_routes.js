@@ -14,7 +14,7 @@ router.post('/tratamiento/registro',verificarAutenticacion,registrarTratamiento)
 router.get('/tratamiento/:id',verificarAutenticacion,detalleTratamiento)
 router.put('/tratamiento/:id',verificarAutenticacion,actualizarTratamiento)
 router.delete('/tratamiento/:id',verificarAutenticacion,eliminarTratamiento)
-router.put('/tratamiento/estado/:id',verificarAutenticacion,cambiarEstado)
+router.post('/tratamiento/estado/:id',verificarAutenticacion,cambiarEstado)
 
 
 

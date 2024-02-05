@@ -6,10 +6,6 @@ import mongoose from "mongoose"
 
 
 //Metodo para validar login del usuario veterinario
-<<<<<<< HEAD
-const login =(req,res)=>{
-    res.status(200).json({res:'login del veterinario'})
-=======
 const login = async(req,res)=>{
     const {email,password} = req.body
     if (Object.values(req.body).includes("")) return res.status(404).json({msg:"Lo sentimos, debes llenar todos los campos"})
@@ -30,7 +26,6 @@ const login = async(req,res)=>{
         _id,
         email:veterinarioBDD.email
     })
->>>>>>> fdf6c894dc8764a6bef50385617ad28b9dd23509
 }
 
 const perfil=(req,res)=>{
@@ -38,15 +33,6 @@ const perfil=(req,res)=>{
 }
 
 //Metodo para crear un nuevo usuario y almacenarlo en la base de datos
-<<<<<<< HEAD
-const registro =(req,res)=>{
-    res.status(200).json({res:'registro de un nuevo veterinario'})
-}
-
-//Confirmacion del nuevo usuario mediante correo electronico
-const confirmEmail =(req,res)=>{
-    res.status(200).json({res:'Confirmación de un nuevo email'})
-=======
 const registro = async (req,res)=>{
     const {email,password} = req.body
     if (Object.values(req.body).includes("")) return res.status(400).json({msg:"Lo sentimos, debes llenar todos los campos"})
@@ -70,7 +56,6 @@ const confirmEmail = async (req,res)=>{
     veterinarioBDD.confirmEmail=true
     await veterinarioBDD.save()
     res.status(200).json({msg:"Token confirmado, ya puedes iniciar sesión"}) 
->>>>>>> fdf6c894dc8764a6bef50385617ad28b9dd23509
 }
 
 
@@ -137,8 +122,6 @@ const comprobarTokenPasword = async (req,res)=>{
     res.status(200).json({msg:"Token confirmado, ya puedes crear tu nuevo password"}) 
 }
 
-<<<<<<< HEAD
-=======
 //Configurar nueva contraseña
 const nuevoPassword = async (req,res)=>{
     const{password,confirmpassword} = req.body
@@ -152,7 +135,6 @@ const nuevoPassword = async (req,res)=>{
     res.status(200).json({msg:"Felicitaciones, ya puedes iniciar sesión con tu nuevo password"}) 
 }
 
->>>>>>> fdf6c894dc8764a6bef50385617ad28b9dd23509
 
 export {
     login,
