@@ -22,7 +22,9 @@ https://slidesgo.com/editor/share/9b45dcbb-8408-45fd-88f1-01bcf041f8bc#rs=link
 
 [@Morales-Gilmar-Vladimir](https://www.github.com/Morales-Gilmar-Vladimir)
 
+[@Cristian-Simba](https://www.github.com/Cristian-Simba)
 
+[@IsmaelNovillo](https://www.github.com/IsmaelNovillo)
 
 
 ## SPRINT 0
