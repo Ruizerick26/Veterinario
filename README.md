@@ -13,8 +13,10 @@ https://slidesgo.com/editor/share/9b45dcbb-8408-45fd-88f1-01bcf041f8bc#rs=link
 ## Authors
 
 - [@Ruizerick26](https://www.github.com/Ruizerick26)
-[@Paulsh5](https://www.github.com/Paulsh5)
-[@Cristiann-Paredes](https://ww.github.com/Cristiann-Paredes)
+
+[@Paulesh5](https://www.github.com/Paulsh5)
+
+[@Cristiann-Paredes](https://www.github.com/Cristiann-Paredes)
 
 
 
