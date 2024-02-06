@@ -8,6 +8,11 @@ https://slidesgo.com/editor/share/9b45dcbb-8408-45fd-88f1-01bcf041f8bc#rs=link
 - Desarrollo del Sprint 4
 - Desarrollo del Sprint 5
 
+## Link de documentación
+
+https://github.com/cristian-simba/api_vet_swagger.git
+
+https://app.swaggerhub.com/apis/GilmarMorales/Pacientes/1.0.0
 
 
 ## Authors
