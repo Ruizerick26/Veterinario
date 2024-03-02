@@ -16,7 +16,7 @@ let transporter = nodemailer.createTransport({
 
 const sendMailToUser = async(userMail, token) => {
 
-    let info = await transport.sendMail({
+    let info = await transporter.sendMail({
         from: 'admin@vet.com',
         to: userMail,
         subject: "Verifica tu cuenta de correo electrónico",

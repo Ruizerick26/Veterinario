@@ -14,8 +14,8 @@ const app = express()
 
 
 // Configuraciones 
+app.use(cors({origin: '*', optionsSuccessStatus: 200}))
 app.set('port',process.env.port || 3000)
-app.use(cors({origin : "https://vet-esfot-g2.netlify.app", credentials : true}))
 
 // Middlewares 
 app.use(express.json())
