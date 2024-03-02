@@ -17,7 +17,7 @@ let transporter = nodemailer.createTransport({
 const sendMailToUser = async(userMail, token) => {
 
     let info = await transporter.sendMail({
-        from: 'admin@vet.com',
+        from: process.env.USER_MAILTRAP,
         to: userMail,
         subject: "Verifica tu cuenta de correo electrónico",
         html: `
