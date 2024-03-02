@@ -15,7 +15,7 @@ const app = express()
 
 // Configuraciones 
 app.set('port',process.env.port || 3000)
-app.use(cors({origin : process.env.URL_FRONTEND}))
+app.use(cors())
 
 // Middlewares 
 app.use(express.json())
