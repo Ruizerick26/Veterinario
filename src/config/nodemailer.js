@@ -14,21 +14,24 @@ let transporter = nodemailer.createTransport({
     }
 });
 
-const sendMailToUser = async(userMail, token) => {
 
-    let info = await transporter.sendMail({
+const sendMailToUser = (userMail, token) => {
+
+    let mailOptions = {
         from: process.env.USER_MAILTRAP,
         to: userMail,
-        subject: "Verifica tu cuenta de correo electrónico",
-        html: `
-        <h1>Sistema de gestión (VET-ESFOT 🐶 😺)</h1>
-        <hr>
-        <a href=${process.env.URL_FRONTEND}confirmar/${token}>Clic para confirmar tu cuenta</a>
-        <hr>
-        <footer>Grandote te da la Bienvenida!</footer>
-        `
-        });
-        console.log("Mensaje enviado satisfactoriamente: ", info.messageId);
+        subject: "Verifica tu cuenta",
+        html: `<p>Hola, haz clic <a href="${process.env.URL_FRONTEND}confirmar/${token}">aquí</a> para confirmar tu cuenta.</p>`
+    };
+    
+
+    transporter.sendMail(mailOptions, function(error, info){
+        if (error) {
+            console.log(error);
+        } else {
+            console.log('Correo enviado: ' + info.response);
+        }
+    });
 };
 
 
