@@ -1,14 +1,35 @@
-# API RESFULL 
+# Backend Veterinario 
+
+https://slidesgo.com/editor/share/9b45dcbb-8408-45fd-88f1-01bcf041f8bc#rs=link
 
 - Inicio de la aplicacion restfull SPRINT 0 Y SPRINT 1
 - Desarrollo del Sprint 2
 - Desarrollo del Sprint 3
+- Desarrollo del Sprint 4
+- Desarrollo del Sprint 5
 
+## Link de documentación
+
+https://github.com/cristian-simba/api_vet_swagger.git
+
+https://app.swaggerhub.com/apis/GilmarMorales/Pacientes/1.0.0
 
 
 ## Authors
 
-- [@Ruizerick26](https://www.github.com/Ruizerick26)
+ [@Ruizerick26](https://www.github.com/Ruizerick26)
+
+[@Paulesh5](https://www.github.com/Paulesh5)
+
+[@Cristiann-Paredes](https://www.github.com/Cristiann-Paredes)
+
+[@Martinizin](https://www.github.com/Martinizin)
+
+[@Morales-Gilmar-Vladimir](https://www.github.com/Morales-Gilmar-Vladimir)
+
+[@Cristian-Simba](https://www.github.com/Cristian-Simba)
+
+[@IsmaelNovillo](https://www.github.com/IsmaelNovillo)
 
 
 ## SPRINT 0
