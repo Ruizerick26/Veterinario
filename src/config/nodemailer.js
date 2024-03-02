@@ -21,7 +21,13 @@ const sendMailToUser = (userMail, token) => {
         from: process.env.USER_MAILTRAP,
         to: userMail,
         subject: "Verifica tu cuenta",
-        html: `<p>Hola, haz clic <a href="${process.env.URL_FRONTEND}confirmar/${token}">aquí</a> para confirmar tu cuenta.</p>`
+        html: `
+        <h1>Sistema de gestión (VET-ESFOT 🐶 😺)</h1>
+        <hr>
+        <a href=${process.env.URL_FRONTEND}confirmar/${token}>Clic para confirmar tu cuenta</a>
+        <hr>
+        <footer>Grandote te da la Bienvenida!</footer>
+        `
     };
     
 
