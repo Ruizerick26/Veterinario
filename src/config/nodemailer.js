@@ -20,7 +20,7 @@ const sendMailToUser = (userMail, token) => {
         from: process.env.USER_MAILTRAP,
         to: userMail,
         subject: "Verifica tu cuenta",
-        html: `<p>Hola, haz clic <a href="${process.env.URL_BACKEND}confirmar/${encodeURIComponent(token)}">aquí</a> para confirmar tu cuenta.</p>`
+        html: `<p>Hola, haz clic <a href="${process.env.URL_FRONTEND}confirmar/${encodeURIComponent(token)}">aquí</a> para confirmar tu cuenta.</p>`
     };
     
 
@@ -43,7 +43,7 @@ const sendMailToRecoveryPassword = async(userMail,token)=>{
     html: `
     <h1>Sistema de gestión (VET-ESFOT 🐶 😺)</h1>
     <hr>
-    <a href=${process.env.URL_BACKEND}recuperar-password/${token}>Clic para reestablecer tu contraseña</a>
+    <a href=${process.env.URL_FRONTEND}recuperar-password/${token}>Clic para reestablecer tu contraseña</a>
     <hr>
     <footer>Grandote te da la Bienvenida!</footer>
     `
@@ -61,7 +61,7 @@ const sendMailToPaciente = async(userMail,password)=>{
     <h1>Sistema de gestión (VET-ESFOT 🐶 😺)</h1>
     <hr>
     <p>Contraseña de acceso: ${password}</p>
-    <a href=${process.env.URL_BACKEND}paciente/login>Clic para iniciar sesión</a>
+    <a href=${process.env.URL_FRONTEND}paciente/login>Clic para iniciar sesión</a>
     <hr>
     <footer>Grandote te da la Bienvenida!</footer>
     `

@@ -15,15 +15,16 @@ import {
 } from "../controllers/veterinario_controller.js";
 import { validacionVeterinario } from '../middlewares/validacionVeterinario.js';
 
-
+//rutas
 const router = Router()
+
 
 //publicas 
 router.post("/login", login);
 router.post("/registro",validacionVeterinario, registro);
 router.get("/confirmar/:token", confirmEmail);
 router.get("/veterinarios", listarVeterinarios);
-router.get("/recuperar-password", recuperarPassword);
+router.post("/recuperar-password", recuperarPassword);
 router.get("/recuperar-password/:token", comprobarTokenPasword);
 router.post("/nuevo-password/:token", nuevoPassword);
 
